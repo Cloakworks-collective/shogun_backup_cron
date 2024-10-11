@@ -154,6 +154,6 @@ cron.schedule('0 */1 * * *', () => {
 
 
 // call set weather every 6 hours
-cron.schedule('0 */6 * * * *', () => {
+cron.schedule('0 */6 * * *', () => {
     fetchAndPostWeatherData();
 });
