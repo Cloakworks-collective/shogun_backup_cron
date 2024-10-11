@@ -147,7 +147,6 @@ async function fetchAndPostWeatherData() {
     }
 }
 
-  
 //call tick every 1 hour
 cron.schedule('0 */1 * * *', () => {
     call_tick();
