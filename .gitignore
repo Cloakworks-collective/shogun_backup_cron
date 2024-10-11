@@ -1,0 +1,7 @@
+.env
+dist
+build
+node_modules
+.acurast
+.DS_Store
+.next
