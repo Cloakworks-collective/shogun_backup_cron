@@ -6,7 +6,7 @@ import cron from 'node-cron';
 // Load environment variables
 dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
-const WARLORD_ADDRESS = '0x49d6ee12c97980e14836874fa9cf58ad1c42b2aa4c4cdd96a556aa66d04c8e98';
+const WARLORD_ADDRESS = '0xc520f01c9c422da916ce59bb42b12e05adb19df7b5798a8e39c3dc9895741b1e';
 
 const BASE_URL = 'https://api.openweathermap.org/';
 const LOCATION = 'Tokyo';
